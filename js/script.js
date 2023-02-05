@@ -1,5 +1,5 @@
 
-const LAMBDA_TRIGGER_API ="https://4vi0sulyi8.execute-api.us-east-1.amazonaws.com/prodStage";
+const LAMBDA_TRIGGER_API ="https://a9hxqu6kjc.execute-api.us-east-1.amazonaws.com/prod-stage";
 
 
 

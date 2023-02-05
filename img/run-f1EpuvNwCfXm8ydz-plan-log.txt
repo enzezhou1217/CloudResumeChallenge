@@ -1,0 +1,25 @@
+Terraform v1.3.7
+on linux_amd64
+Initializing plugins and modules...
+[0m[1maws_dynamodb_table_item.cloud-resume: Refreshing state... [id=cloud-resume-dynamodb-table|DomainName||enzezhou.com|][0m
+[0m[1maws_cloudfront_origin_access_identity.origin_access_identity: Refreshing state... [id=E2YMRNDFEEWFIB][0m
+[0m[1maws_iam_role.iam_for_lambda: Refreshing state... [id=iam_for_lambda][0m
+[0m[1maws_route53_zone.cloud-resume-hosted-zone: Refreshing state... [id=Z074016718LWQ2A9MGNV8][0m
+[0m[1maws_apigatewayv2_api.api-to-invoke-lambda: Refreshing state... [id=c5b0e0vcnh][0m
+[0m[1maws_s3_bucket.mybucket: Refreshing state... [id=cloud-resume-bucket-enzezhou][0m
+[0m[1maws_dynamodb_table.cloud-resume-dynamodb-table: Refreshing state... [id=cloud-resume-dynamodb-table][0m
+[0m[1maws_acm_certificate.cert: Refreshing state... [id=arn:aws:acm:us-east-1:023639994151:certificate/cae28cdc-40a5-4466-88bb-20a41fd2041e][0m
+[0m[1maws_lambda_permission.lambda_permission: Refreshing state... [id=AllowMyAPIInvoke][0m
+[0m[1maws_s3_bucket_website_configuration.mysite: Refreshing state... [id=cloud-resume-bucket-enzezhou][0m
+[0m[1maws_lambda_function.cloud-resume-lambda: Refreshing state... [id=cloud-resume-lambda][0m
+[0m[1maws_route53_record.cert["enzezhou.com"]: Refreshing state... [id=Z074016718LWQ2A9MGNV8__e60c27848b7b46c4fe6e7be9bd3e6ddf.enzezhou.com._CNAME][0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mreading DynamoDB Table Item (cloud-resume-dynamodb-table|DomainName||enzezhou.com|): ValidationException: The provided key element does not match the schema
+[31m│[0m [0m	status code: 400, request id: 45V9J6NP1ESHF53RRF5E7CO6CRVV4KQNSO5AEMVJF66Q9ASUAAJG[0m
+[31m│[0m [0m
+[31m│[0m [0m[0m  with aws_dynamodb_table_item.cloud-resume,
+[31m│[0m [0m  on main.tf line 305, in resource "aws_dynamodb_table_item" "cloud-resume":
+[31m│[0m [0m 305: resource "aws_dynamodb_table_item" "cloud-resume" [4m{[0m[0m
+[31m│[0m [0m
+[31m╵[0m[0m
+Operation failed: failed running terraform plan (exit 1)
