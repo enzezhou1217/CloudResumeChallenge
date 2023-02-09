@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home of Enze Zhou 👋 on Enze&#39;s Cloud Resume</title>
-    <link>https://example.com/</link>
+    <link>/</link>
     <description>Recent content in Home of Enze Zhou 👋 on Enze&#39;s Cloud Resume</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My One-page Resume</title>
-      <link>https://example.com/my-one-page-resume/</link>
+      <link>/my-one-page-resume/</link>
       <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/my-one-page-resume/</guid>
+      <guid>/my-one-page-resume/</guid>
       <description>Enze Zhou | enzezhou.com
 Enze Zhou Certified AWS Cloud Developer Guangzhou, China enze.zhou@outlook.com (86) 131-4878-1217 LinkedIn Profile Profile I am a young and ambitious professional looking to gain a position in cloud technology, where I can leverage my skills for continuous improvement.
 Licensing Amazon Web Services Certified Cloud Solutions Architect Associate
@@ -31,46 +31,46 @@ Java</description>
     
     <item>
       <title>Emoji Support</title>
-      <link>https://example.com/blog/emoji-support/</link>
+      <link>/blog/emoji-support/</link>
       <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/blog/emoji-support/</guid>
+      <guid>/blog/emoji-support/</guid>
       <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>https://example.com/blog/markdown-syntax/</link>
+      <link>/blog/markdown-syntax/</link>
       <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/blog/markdown-syntax/</guid>
+      <guid>/blog/markdown-syntax/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Math Typesetting</title>
-      <link>https://example.com/blog/math-typesetting/</link>
+      <link>/blog/math-typesetting/</link>
       <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/blog/math-typesetting/</guid>
+      <guid>/blog/math-typesetting/</guid>
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Placeholder Text</title>
-      <link>https://example.com/blog/placeholder-text/</link>
+      <link>/blog/placeholder-text/</link>
       <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/blog/placeholder-text/</guid>
+      <guid>/blog/placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Rich Content</title>
-      <link>https://example.com/blog/rich-content/</link>
+      <link>/blog/rich-content/</link>
       <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/blog/rich-content/</guid>
+      <guid>/blog/rich-content/</guid>
       <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;
 &lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;</description>
     </item>
