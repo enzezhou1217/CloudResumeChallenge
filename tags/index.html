@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>
+    Tags - Enze&#39;s Cloud Resume
+  </title><meta name="generator" content="Hugo 0.110.0"><link
+    rel="stylesheet"
+    href="https://example.com/css/styles.min.781b2dd14052baf884b1c233ca091f3e3057392d1b1372ea1a660c70d64e6503.css"
+    integrity="sha256-eBst0UBSuviEscIzygkfPjBXOS0bE3LqGmYMcNZOZQM="
+  />
+  
+  <script>
+    
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  </script>
+  
+</head>
+
+  <body
+    class="flex flex-col min-h-screen dark:bg-gray-900 dark:text-gray-100 transition-colors duration-500"
+  ><header class="w-full px-4 pt-4 max-w-5xl mx-auto">
+  <nav class="flex items-center justify-between flex-wrap">
+    <div class="flex gap-2 items-center">
+      <p id = "visitorCounter"></p>
+      <script>
+          const LAMBDA_TRIGGER_API ="https://a9hxqu6kjc.execute-api.us-east-1.amazonaws.com/prod-stage";
+          const request = new XMLHttpRequest();
+          request.addEventListener("load", reqListener);
+          request.open("GET", LAMBDA_TRIGGER_API);
+          request.send();
+
+          function reqListener(){
+              if(this.readyState === XMLHttpRequest.DONE){
+                  console.log(this.responseText);
+                  var visitorCount = this.responseText;
+              }
+              var newText ="Visitors: "+ visitorCount
+              var contentHolder = document.getElementById('visitorCounter');
+              contentHolder.innerHTML = newText;
+          }
+      </script>
+    </div>
+
+    <ul id="nav-menu" class="flex w-auto mt-0 space-x-2">
+      <li>
+        <a href="https://enzezhou.com" target=”_blank” class="hover:text-blue-800 dark:hover:text-blue-300">My One-page Resume</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+<main class="flex-1 mx-4 md:mx-12 lg:mx-24 mt-8 sm:mt-16"> 
+<article class="sm:mx-12 mb-16 prose lg:prose-lg">
+  <h1><a href="https://example.com/tags/css/">css</a></h1>
+  
+</article>
+
+<article class="sm:mx-12 mb-16 prose lg:prose-lg">
+  <h1><a href="https://example.com/tags/emoji/">emoji</a></h1>
+  
+</article>
+
+<article class="sm:mx-12 mb-16 prose lg:prose-lg">
+  <h1><a href="https://example.com/tags/html/">html</a></h1>
+  
+</article>
+
+<article class="sm:mx-12 mb-16 prose lg:prose-lg">
+  <h1><a href="https://example.com/tags/markdown/">markdown</a></h1>
+  
+</article>
+
+<article class="sm:mx-12 mb-16 prose lg:prose-lg">
+  <h1><a href="https://example.com/tags/privacy/">privacy</a></h1>
+  
+</article>
+
+<article class="sm:mx-12 mb-16 prose lg:prose-lg">
+  <h1><a href="https://example.com/tags/shortcodes/">shortcodes</a></h1>
+  
+</article>
+
+<article class="sm:mx-12 mb-16 prose lg:prose-lg">
+  <h1><a href="https://example.com/tags/text/">text</a></h1>
+  
+</article>
+ 
+    </main><footer class="w-full text-center p-4 text-xs text-gray-400">
+  <p>
+    Built with
+    <a
+      href="https://gohugo.io"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="underline hover:text-blue-800 dark:hover:text-blue-300"
+      >Hugo</a
+    >
+    and
+    <a
+      href="https://github.com/apvarun/showfolio-hugo-theme"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="underline hover:text-blue-800 dark:hover:text-blue-300"
+      >Showfolio</a
+    >
+  </p>
+</footer>
+
+</body>
+</html>
